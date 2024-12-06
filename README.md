@@ -2,6 +2,8 @@
 
 Réalisation de mon script de navigation pour sélectionner un élément aléatoire des offres spéciales proposé par le site easyTravel.
 
+J'ai choisi un choix via random et une redirection à l'accueil à la place d'une boucle étant donné que le site affiche de nouvelles offres à chaque fois que l'on repart à l'accueil. Celà évite donc les problèmes d'id et simule de la navigation.
+
 ## Réalisation:
 - Pour ce faire j'ai dû récupérer la liste des id et en choisir un de manière aléatoire. Il est possible de voir la variable contenant l'élément séléctionné en suivant ce chemin:
   
