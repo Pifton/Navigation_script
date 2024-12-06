@@ -2,7 +2,7 @@
 
 Réalisation de mon script de navigation pour sélectionner un élément aléatoire des offres spéciales proposé par le site easyTravel.
 
-##Réalisation:
+## Réalisation:
 - Pour ce faire j'ai dû récupérer la liste des id et en choisir un de manière aléatoire. Il est possible de voir la variable contenant l'élément séléctionné en suivant ce chemin:
   
   ``SC00_Navigation  =>  TR00_Accueil  =>  /easytravel/rest/journeys/special-offers  =>  /easytravel/rest/journeys/special-offers``
