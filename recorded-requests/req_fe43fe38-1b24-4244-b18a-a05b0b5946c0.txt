@@ -1,0 +1,19 @@
+POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/top-sites/1/a8b96a84-7e5f-4eb3-9443-b610bc5855f4 HTTP/2.0
+user-agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+accept: */*
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+x-telemetry-agent: Glean/61.2.0 (Rust on Linux)
+content-type: application/json; charset=utf-8
+content-length: 913
+date: Fri, 06 Dec 2024 14:51:25 GMT
+content-encoding: gzip
+sec-fetch-dest: empty
+sec-fetch-mode: no-cors
+sec-fetch-site: none
+priority: u=4
+pragma: no-cache
+cache-control: no-cache
+te: trailers
+
+{"ping_info":{"seq":6062,"start_time":"2024-12-06T15:49:26.000+01:00","end_time":"2024-12-06T15:51:25.498+01:00","experiments":{"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fpp-floating-point-protection-rollout-linux-only":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disabling-chips-for-v131":{"branch":"control","extra":{"type":"nimbus-rollout"}},"extensions-migration-in-import-wizard-116-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":{"branch":"control","extra":{"type":"nimbus-rollout"}},"long-term-holdback-2024-h2-velocity-desktop":{"branch":"delivery","extra":{"type":"nimbus-nimbus"}},"phc-rollout":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"upgrade-spotlight-rollout":{"branch":"treatment","extra":{"type":"nimbus-rollout"}},"fox-doodle-and-tail-fox-2024-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}}}},"client_info":{"telemetry_sdk_build":"61.2.0","build_date":"1970-01-01T00:00:00+00:00","first_run_date":"2021-10-09+02:00","app_channel":"release","app_display_version":"133.0","os":"Linux","os_version":"6.9","app_build":"20241121140525","architecture":"x86_64","locale":"en-US"},"metrics":{"url":{"top_sites.reporting_url":"https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfQfkfQ2X4pfYfQLWfC2d1C8nj9wWIBdvIpkY7n4YIFckiGIw5FwqgCLYfplnx%3DXNHmEuIF%2Bk5FwqgClWfpxnHF2uxmETIF4kiFzU5FwqgClYfZ2Y4plkfZLk4pDa1CLm1BIZJ%3Dzk5F%2BdJF7wxQkX"},"uuid":{"top_sites.context_id":"53d94c0f-986e-40bf-9fd1-bc1e3a5cc105"},"quantity":{"top_sites.position":1},"string":{"top_sites.source":"newtab","top_sites.ping_type":"topsites-impression","top_sites.advertiser":"amazon","top_sites.tile_id":"74357"}}}

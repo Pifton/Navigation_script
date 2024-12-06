@@ -1,0 +1,7 @@
+GET https://services.addons.mozilla.org/api/v4/addons/search/?guid=fr-dicollecte%40dictionaries.addons.mozilla.org%2C%7Ba6fd85ed-e919-4a43-a5af-8da18bda539f%7D%2C%7B036a55b4-5e72-4d05-a06c-cba2dfcc134a%7D%2Cchrome-gnome-shell%40gnome.org%2Cjid1-MnnxcxisBPnSXQ%40jetpack%2Cfirefox%40tampermonkey.net%2CuBlock0%40raymondhill.net%2C%7B37d71f0b-917d-485a-ad55-7fd43df7cb57%7D%2Cdefault-theme%40mozilla.org%2Cfirefox-alpenglow%40mozilla.org%2Cfirefox-compact-dark%40mozilla.org%2Cfirefox-compact-light%40mozilla.org%2Cgoogle%40search.mozilla.org%2Cwikipedia%40search.mozilla.org%2Cbing%40search.mozilla.org%2Cddg%40search.mozilla.org%2Cebay%40search.mozilla.org%2Cqwant%40search.mozilla.org%2Caddons-search-detection%40mozilla.com%2Clangpack-it%40firefox.mozilla.org%2Clangpack-en-GB%40firefox.mozilla.org%2Clangpack-en-CA%40firefox.mozilla.org%2Clangpack-ja%40firefox.mozilla.org%2Clangpack-es-ES%40firefox.mozilla.org%2Clangpack-fr%40firefox.mozilla.org%2Clangpack-ar%40firefox.mozilla.org%2Clangpack-pt-BR%40firefox.mozilla.org%2Clangpack-es-AR%40firefox.mozilla.org%2Clangpack-es-CL%40firefox.mozilla.org%2Clangpack-es-MX%40firefox.mozilla.org%2Clangpack-pt-PT%40firefox.mozilla.org%2Clangpack-zh-CN%40firefox.mozilla.org%2Clangpack-zh-TW%40firefox.mozilla.org%2Clangpack-de%40firefox.mozilla.org%2Clangpack-ru%40firefox.mozilla.org&lang=en-US HTTP/2.0
+user-agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+accept: */*
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+te: trailers
+

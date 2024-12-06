@@ -1,0 +1,19 @@
+POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/ed658ea1-8af2-4c17-8bf8-8650dddf8681 HTTP/2.0
+user-agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+accept: */*
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+x-telemetry-agent: Glean/61.2.0 (Rust on Linux)
+content-length: 1151
+date: Fri, 06 Dec 2024 14:54:23 GMT
+sec-fetch-dest: empty
+sec-fetch-mode: no-cors
+sec-fetch-site: none
+priority: u=4
+pragma: no-cache
+cache-control: no-cache
+te: trailers
+
+{"ping_info":{"seq":4662,"start_time":"2024-12-06T15:51:31.000+01:00","end_time":"2024-12-06T15:52:08.373+01:00","reason":"newtab_session_end","experiments":{"long-term-holdback-2024-h2-velocity-desktop":{"branch":"delivery","extra":{"type":"nimbus-nimbus"}},"phc-rollout":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"upgrade-spotlight-rollout":{"branch":"treatment","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fpp-floating-point-protection-rollout-linux-only":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disabling-chips-for-v131":{"branch":"control","extra":{"type":"nimbus-rollout"}},"extensions-migration-in-import-wizard-116-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"fox-doodle-and-tail-fox-2024-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}}}},"client_info":{"telemetry_sdk_build":"61.2.0","os":"Linux","os_version":"6.9","app_display_version":"133.0","locale":"en-US","app_channel":"release","architecture":"x86_64","app_build":"20241121140525","client_id":"e09cd37b-860c-436c-94f2-ce9ed7b66b60","first_run_date":"2021-10-09+02:00","build_date":"1970-01-01T00:00:00+00:00"},"metrics":{"string":{"newtab.locale":"en-US","newtab.homepage_category":"enabled","newtab.newtab_category":"enabled","search.engine.default.engine_id":"google-b-d","search.engine.private.engine_id":""},"boolean":{"newtab.weather_enabled":true,"topsites.sponsored_enabled":true,"pocket.sponsored_stories_enabled":true,"pocket.is_signed_in":false,"newtab.search.enabled":true,"topsites.enabled":true,"pocket.enabled":false},"quantity":{"topsites.sponsored_tiles_configured":3,"topsites.rows":1},"string_list":{"newtab.sov_allocation":["{\"pos\":1,\"assigned\":\"amp\",\"chosen\":\"amp\"}","{\"pos\":2,\"assigned\":\"amp\",\"chosen\":\"amp\"}","{\"pos\":3,\"assigned\":\"amp\",\"chosen\":\"amp\"}"],"newtab.blocked_sponsors":[]},"text":{"topsites.sponsored_tiles_received":"{\"sponsoredTilesReceived\":[{\"advertiser\":\"amazon\",\"provider\":\"amp\",\"display_position\":1,\"display_fail_reason\":null},{\"advertiser\":\"temuaffiliateprogram.pxf\",\"provider\":\"amp\",\"display_position\":2,\"display_fail_reason\":null},{\"advertiser\":\"nike\",\"provider\":\"amp\",\"display_position\":3,\"display_fail_reason\":null}]}"},"uuid":{"legacy.telemetry.client_id":"82d17762-a668-475d-9f39-7f0e5745760b","legacy.telemetry.profile_group_id":"82d17762-a668-475d-9f39-7f0e5745760b"}},"events":[{"timestamp":0,"category":"newtab","name":"closed","extra":{"newtab_visit_id":"{109126fb-3287-4b6c-a2a4-5b104dba4e9a}","glean_timestamp":"1733496728371"}}]}

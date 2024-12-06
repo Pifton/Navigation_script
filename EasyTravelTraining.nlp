@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=EasyTravelTraining
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.version=2024.3.0
+product.original.version=2024.3.0
+project.is-open-test-settings-after-upload=false
+project.id=70873e9b-1af7-4642-adf4-0ce27c7bdd15
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=false

@@ -1,0 +1,19 @@
+POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/top-sites/1/682701e5-acb5-4120-bd14-e5a8cc2103a5 HTTP/2.0
+user-agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+accept: */*
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+content-length: 894
+content-type: application/json; charset=utf-8
+x-telemetry-agent: Glean/61.2.0 (Rust on Linux)
+content-encoding: gzip
+date: Fri, 06 Dec 2024 14:54:25 GMT
+sec-fetch-dest: empty
+sec-fetch-mode: no-cors
+sec-fetch-site: none
+priority: u=4
+pragma: no-cache
+cache-control: no-cache
+te: trailers
+
+{"ping_info":{"seq":6066,"start_time":"2024-12-06T15:54:25.000+01:00","end_time":"2024-12-06T15:54:25.023+01:00","experiments":{"fox-doodle-and-tail-fox-2024-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"extensions-migration-in-import-wizard-116-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"phc-rollout":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fpp-floating-point-protection-rollout-linux-only":{"branch":"control","extra":{"type":"nimbus-rollout"}},"long-term-holdback-2024-h2-velocity-desktop":{"branch":"delivery","extra":{"type":"nimbus-nimbus"}},"upgrade-spotlight-rollout":{"branch":"treatment","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disabling-chips-for-v131":{"branch":"control","extra":{"type":"nimbus-rollout"}}}},"client_info":{"telemetry_sdk_build":"61.2.0","app_channel":"release","app_build":"20241121140525","architecture":"x86_64","locale":"en-US","os":"Linux","os_version":"6.9","app_display_version":"133.0","build_date":"1970-01-01T00:00:00+00:00","first_run_date":"2021-10-09+02:00"},"metrics":{"uuid":{"top_sites.context_id":"53d94c0f-986e-40bf-9fd1-bc1e3a5cc105"},"quantity":{"top_sites.position":2},"string":{"top_sites.ping_type":"topsites-impression","top_sites.tile_id":"75169","top_sites.advertiser":"temu","top_sites.source":"newtab"},"url":{"top_sites.reporting_url":"https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfQfkfQ2X4pfYfQLWfC2d1C8nj9wWIBdvIpkY7n4YIFckiGIw5FwqgClW4p8r7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfQfkfQ2X4pfa4p2d1CbY4CfnxmXVjtdUjFdOIG8zfLyy"}}}

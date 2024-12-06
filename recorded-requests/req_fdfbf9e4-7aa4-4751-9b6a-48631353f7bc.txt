@@ -1,0 +1,19 @@
+POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/bc3253c0-7c96-4ee2-99c2-8ea497ffa044 HTTP/2.0
+user-agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+accept: */*
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+content-length: 472
+date: Fri, 06 Dec 2024 14:54:24 GMT
+x-telemetry-agent: Glean/61.2.0 (Rust on Linux)
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+sec-fetch-dest: empty
+sec-fetch-mode: no-cors
+sec-fetch-site: none
+priority: u=4
+pragma: no-cache
+cache-control: no-cache
+te: trailers
+
+{"ping_info":{"seq":4663,"start_time":"2024-12-06T15:52:08.000+01:00","end_time":"2024-12-06T15:54:23.246+01:00","reason":"component_init"},"client_info":{"telemetry_sdk_build":"61.2.0","locale":"en-US","app_channel":"release","app_build":"20241121140525","os_version":"6.9","architecture":"x86_64","os":"Linux","app_display_version":"133.0","client_id":"e09cd37b-860c-436c-94f2-ce9ed7b66b60","build_date":"1970-01-01T00:00:00+00:00","first_run_date":"2021-10-09+02:00"},"metrics":{"string_list":{"newtab.blocked_sponsors":[]},"boolean":{"newtab.search.enabled":true,"pocket.is_signed_in":false,"topsites.enabled":true,"pocket.sponsored_stories_enabled":true,"newtab.weather_enabled":true,"pocket.enabled":false,"topsites.sponsored_enabled":true},"quantity":{"topsites.rows":1},"string":{"newtab.locale":"en-US","newtab.newtab_category":"enabled","newtab.homepage_category":"enabled"}}}
