@@ -10,7 +10,7 @@ Réalisation de mon script de navigation pour sélectionner un élément aléato
   Il faut ensuite visiter la catégorie **"Avancé..."** pour trouver notre variable **"EX_Rand_SelectItemID"**
 
   
-- Suite à celá il faudra suivre ce chemin:
+- Suite à cela il faudra suivre ce chemin:
   
   ``SC00_Navigation  =>  TR01_Item  =>  /easytravel/rest/journeys/-{EX_RandSelectedItemID}``
   
